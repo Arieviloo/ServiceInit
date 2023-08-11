@@ -12,6 +12,7 @@ class HomeService: NSObject {
     func getService(completion: @escaping(Result<PersonList, Error>) -> Void) {
         let urlString: String = "https://run.mocky.io/v3/cf70fee3-bed6-4415-b8d3-11bf1f90c74a"
         
+        
         guard let url: URL = URL(string: urlString) else { return }
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
