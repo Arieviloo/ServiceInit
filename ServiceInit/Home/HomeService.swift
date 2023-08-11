@@ -4,7 +4,6 @@
 //
 //  Created by Jadië Oliveira on 09/08/23.
 //
-
 import UIKit
 
 class HomeService: NSObject {
