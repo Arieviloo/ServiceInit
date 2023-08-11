@@ -26,10 +26,8 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: HomeViewModelProtocol {
     func success() {
-        DispatchQueue.main.async {
             self.screen?.configTableViewProtocols(delegate: self, dataSource: self)
             self.screen?.tableView.reloadData()
-        }
     }
     
     func erro(message: String) {
