@@ -5,7 +5,7 @@
 //  Created by Jadië Oliveira on 09/08/23.
 //
 
-import Foundation
+import UIKit
 
 struct PersonList: Codable {
     var person: [Person]
@@ -18,7 +18,7 @@ struct Person: Codable {
     
     enum CodingKeys:String, CodingKey {
         case name =  "nome"
-        case lastName = "sobre_nome"
+        case lastName = "sobrenome"
         case phone = "telefone"
         
     }
