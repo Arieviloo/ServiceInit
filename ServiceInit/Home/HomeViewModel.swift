@@ -26,7 +26,7 @@ class HomeViewModel:NSObject {
             guard let self else { return }
             switch result {
             case .success(let sucess):
-                personList = sucess.person
+                personList = sucess
                 delegate?.success()
             case .failure(let failure):
                 delegate?.erro(message: failure.localizedDescription)
