@@ -43,7 +43,7 @@ class CustomTableViewCell: UITableViewCell {
     
     public func setupHomeCell(data: Person) {
         screen.nameLabel.text = "Nome: \(data.name)"
-        screen.surnameLabel.text = "Nome: \(data.lastName)"
-        screen.phoneLabel.text = "Nome: \(data.phone)"
+        screen.surnameLabel.text = "Sobrenome: \(data.lastName)"
+        screen.phoneLabel.text = "Tel: \(data.phone)"
     }
 }
