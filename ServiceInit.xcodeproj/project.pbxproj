@@ -15,7 +15,7 @@
 		E2DA5EA82A83C7FF0092AE37 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA5EA72A83C7FF0092AE37 /* HomeViewController.swift */; };
 		E2DA5EAD2A83C8000092AE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DA5EAC2A83C8000092AE37 /* Assets.xcassets */; };
 		E2DA5EB02A83C8000092AE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DA5EAE2A83C8000092AE37 /* LaunchScreen.storyboard */; };
-		E2DA5EB92A83DCD20092AE37 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA5EB82A83DCD20092AE37 /* HomeService.swift */; };
+		E2DA5EB92A83DCD20092AE37 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA5EB82A83DCD20092AE37 /* Service.swift */; };
 		E2DA5EBB2A83DCDD0092AE37 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA5EBA2A83DCDD0092AE37 /* HomeViewModel.swift */; };
 		E2DA5EBE2A83DE2E0092AE37 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA5EBD2A83DE2E0092AE37 /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		E2DA5EAC2A83C8000092AE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2DA5EAF2A83C8000092AE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2DA5EB12A83C8000092AE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2DA5EB82A83DCD20092AE37 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		E2DA5EB82A83DCD20092AE37 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		E2DA5EBA2A83DCDD0092AE37 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E2DA5EBD2A83DE2E0092AE37 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E28A44DD2A8FF281001FC655 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E2DA5EB82A83DCD20092AE37 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		E2B00D812A85609E005E6476 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +83,7 @@
 		E2DA5EA22A83C7FF0092AE37 /* ServiceInit */ = {
 			isa = PBXGroup;
 			children = (
+				E28A44DD2A8FF281001FC655 /* Service */,
 				E2DA5EB72A83C8E30092AE37 /* Home */,
 				E2DA5EBC2A83DE120092AE37 /* Model */,
 				E2DA5EA32A83C7FF0092AE37 /* AppDelegate.swift */,
@@ -93,7 +102,6 @@
 				E2DA5EA72A83C7FF0092AE37 /* HomeViewController.swift */,
 				E2B00D842A8568C9005E6476 /* HomeView.swift */,
 				E2DA5EBA2A83DCDD0092AE37 /* HomeViewModel.swift */,
-				E2DA5EB82A83DCD20092AE37 /* HomeService.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -181,7 +189,7 @@
 				E2DA5EA82A83C7FF0092AE37 /* HomeViewController.swift in Sources */,
 				E2DA5EA42A83C7FF0092AE37 /* AppDelegate.swift in Sources */,
 				E2B00D802A856093005E6476 /* CustomTableViewCell.swift in Sources */,
-				E2DA5EB92A83DCD20092AE37 /* HomeService.swift in Sources */,
+				E2DA5EB92A83DCD20092AE37 /* Service.swift in Sources */,
 				E2DA5EBB2A83DCDD0092AE37 /* HomeViewModel.swift in Sources */,
 				E2B00D832A856168005E6476 /* CustomTableView.swift in Sources */,
 				E2DA5EA62A83C7FF0092AE37 /* SceneDelegate.swift in Sources */,
