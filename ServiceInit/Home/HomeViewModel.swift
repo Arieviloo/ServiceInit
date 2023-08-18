@@ -13,7 +13,7 @@ protocol HomeViewModelProtocol:AnyObject {
 }
 
 class HomeViewModel:NSObject {
-    private var service: HomeService = HomeService()
+    private var service: Service = Service()
     private var personList: [Person] = []
     private weak var delegate: (HomeViewModelProtocol)?
     
